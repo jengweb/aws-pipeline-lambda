@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: NodeJS Express Get Data User 
+Resources:
+  UsersFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs12.x
+      FunctionName: UsersFunction
+      CodeUri: ./users
+      Events:
+        UsersAPI:
+          Type: Api
+          Properties:
+            Path: /{proxy+}
+            Method: get

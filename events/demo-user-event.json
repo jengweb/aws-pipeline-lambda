@@ -1,0 +1,13 @@
+{
+  "statusCode": 200,
+  "headers": {
+    "x-powered-by": "Express",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "77",
+    "etag": "W/\"4d-9aswWZkEp/DA1e1KP7xdKnuFJFU\""
+  },
+  "isBase64Encoded": false,
+  "body": "{\"id\":1,\"name\":\"Leanne Graham\",\"username\":\"Bret\",\"email\":\"Sincere@april.biz\"}",
+  "httpMethod": "GET",
+  "path": "/users/1"
+}
