@@ -5,13 +5,13 @@
       "Sid": "ListObjectsInBucket",
       "Effect": "Allow",
       "Action": ["s3:ListBucket"],
-      "Resource": ["arn:aws:s3:::auto-aws-db-shutdown-deployment-artifacts"]
+      "Resource": ["arn:aws:s3:::lambda-nodejs-artifacts"]
     },
     {
       "Sid": "AllObjectActions",
       "Effect": "Allow",
       "Action": "s3:*Object",
-      "Resource": ["arn:aws:s3:::auto-aws-db-shutdown-deployment-artifacts/*"]
+      "Resource": ["arn:aws:s3:::lambda-nodejs-artifacts/*"]
     }
   ]
 }
