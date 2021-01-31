@@ -26,10 +26,6 @@
         "events:RemoveTargets",
         "events:ListTargetsByRule",
         "events:ListRuleNamesByTarget",
-        "sns:*",
-        "s3:GetObject",
-        "s3:GetObjectVersion",
-        "s3:GetBucketVersioning",
         "events:TestEventPattern",
         "events:PutPermission",
         "events:DescribeEventBus",
@@ -38,7 +34,11 @@
         "events:DeleteRule",
         "events:ListTagsForResource",
         "events:RemovePermission",
-        "events:UntagResource"
+        "events:UntagResource",
+        "sns:*",
+        "s3:GetObject",
+        "s3:GetObjectVersion",
+        "s3:GetBucketVersioning"
       ],
       "Resource": "*"
     }
