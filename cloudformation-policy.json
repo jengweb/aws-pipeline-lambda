@@ -6,6 +6,7 @@
       "Effect": "Allow",
       "Action": [
         "lambda:*",
+        "dynamodb:*",
         "apigateway:*",
         "iam:GetRole",
         "iam:PassRole",
